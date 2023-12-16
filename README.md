@@ -9,19 +9,19 @@
 
 [Ders 02](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders02)  :  Swiper ve Slider 
 
-[Ders 03](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders03)  : Google Clone
+[Ders 03](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders03)  :  Google Clone
 
-[Ders 04](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders04)  : Formlar
+[Ders 04](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders04)  :  Formlar
 
-[Ders 05](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders05)  : Facebook Login Clone
+[Ders 05](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders05)  :  Facebook Login Clone
 
-[Ders 06](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders06)  : Linkedin Login Clone
+[Ders 06](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders06)  :  Linkedin Login Clone
 
-[Ders 07](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders07)  : Flexbox kullanılarak, örnek sitesinin üst kısmı yapıldı.
+[Ders 07](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders07)  :  Flexbox kullanılarak, örnek sitesinin üst kısmı yapıldı.
 
 [Ders 08](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders08)  :  Animasyon ve Açılır Menü
 
-[Ders 09](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders09)  : Musico Basic Site Yapılışı 
+[Ders 09](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders09)  :  Musico Basic Site Yapılışı 
 
 [Ödev](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/odevler/first)  : Ödev
 
@@ -31,12 +31,27 @@
 
 [Ders 12](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders12)  : Bootstrap kullanarak mevcut basit web sitesine benzer bir site oluşturmaya çalıştık
 
+[Ders 13](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders13)  : İU AUZEF sitesini bootstrap yapıldı.
+
+[Ders 13](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders13)  :  1 Haftalık ARA VERİLDİ. Bu süreçte Medium sitesinin clonu yapıldı.
+
+[Ders 12](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders14)  : JavaScript'e giriş yapıldı
+
+[Ders 14](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders15)  : JavaScript'e girişin devamı
+
+[Ders 15](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders16)  : Döngüler ve SetInterval
+
+[Ders 16](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders17)  : counterUp(jQuery)
+
+[Ders 17](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders18)  : Login İşlemleri
+
+[Ders 18](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders18)  : Login İşlemlerinin devamı
 
 
+[Ders 18](Proje)  : Bitirime Projesi
 
 
-
-
+[Ders 18](Proje)  : Sertifika
 
 ## Program Amaçları
  
