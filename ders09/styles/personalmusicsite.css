@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+
+
+*{margin: 0;
+padding: 0;
+font-family: 'Josefin Sans', sans-serif;
+text-decoration: none;
+list-style: none;
+}
+
+header{
+
+    background-image: url(../assets/banner.png);
+    height: 100vh;
+    background-repeat: repeat-x;
+    filter: grayscale(50%); 
+    text-align: center;
+   
+  
+   
+}
+nav{
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav div {
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+nav div:nth-child(2) {
+   
+    /* background-color: brown; */
+    width: 500px;
+    margin-top: 25px;
+} /* sadece 2. etkilesin */
+ /*https://preview.colorlib.com/#musico*/
+.socialmedia a{
+    color: white;
+    text-decoration: none;
+    border: solid thin gray;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 5px;
+    transition: color .3s ease-in;
+
+
+}
+.socialmedia a:hover{
+
+    color:red;
+}
+
+/*--- MENU BAR---*/
+
+#menu li{
+    display: inline-flex;
+    width: 70px;
+}
+#menu li a{
+    color: white;
+}
+/*Dropdown işlemi = Açılan Menü*/
+
+
+
+.dropdown-content {
+   display: none;/*  menu ekranda gözükmesin*/
+    top: 50px; /*üst menğye olan uzaklık*/
+    position: absolute;
+    z-index: 1; /*ekranda diğer elementlerden üstte görün*/
+  
+
+}
+.dropdown-content a {
+    display: block; /* elemenleri alt alta getirdi */
+    background-color: white;
+    border-bottom: solid thin gold;
+    color: #000 !important;
+    text-align: left;
+    padding-left: 20px;
+    width: 100px;
+}
+/* linklerin üzerine geldiğinde bg beyaz olsun */
+.dropdown-content a:hover { 
+    background-color: azure;  
+} 
+/* menunun üzerine geldiğinde alt menüyü göster */
+.dropdown:hover .dropdown-content { 
+    display: block; 
+}
+
+.name  {
+    line-height: 100px;
+    color: white;
+    top: 200px;
+    position: relative; 
+    font-size: 4vmax;
+}
+.album {
+    color: white;
+    position:absolute;
+    bottom: 50px;
+    left: 500px;
+    height: 200px;
+    text-align: start;
+    line-height: 25px;
+}
+.album h2 { padding-top: 25px;
+    margin-top: 80px;
+    }
+.album img {
+    float: left;
+    padding-right: 50px;
+    height: 148px;
+    margin-top: 102px;
+    width: 148px;
+   
+  
+}
+.album p{
+    column-count: 3;
+    column-gap: 50px;
+   column-width: 50%;
+   margin-top: 0px;
+}
+.buyAlbum{
+width: 165px;
+height: 50px;
+background-color: transparent;
+border: thin solid rgb(255, 15, 15);
+color:rgb(255, 15, 15);;
+font-size: 16px;
+transition: all .2s ease-in;
+margin-left: 500px;
+
+position: relative;
+top: -100px;
+
+}
+.buyAlbum:hover{
+    cursor: pointer;
+    background-color:rgb(255, 15, 15);;
+    color: white;
+
+}
+.one{
+   color:rgb(158, 157, 157) ;
+   
+}
+.two{
+  color:  #3a3a3a; 
+}
+/* Overlay işmei : üstüne geldiğinde sağdan veya soldan açılma işlemi*/
+.containertwo{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    position: relative;
+}
+.image{
+    width: 300px !important;
+    height: 300px !important;
+    display: block;
+    width: auto;
+}
+.overlay{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: 10px;
+    position: absolute;
+    overflow: hidden;
+    width: 0;
+    height: 300px;
+    transition: .5s ease;
+    background-color: aquamarine;
+    opacity: .5;
+}
+.containertwo:hover .overlay{
+    width: 300px; 
+
+}
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+.containertwo{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    position: relative;
+}
+.image{
+    width: 300px !important;
+    height: 300px !important;
+    display: block;
+    width: auto;
+}
+.overlay{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: 10px;
+    position: absolute;
+    overflow: hidden;
+    width: 0;
+    height: 300px;
+    transition: .5s ease;
+    background-color: aquamarine;
+    opacity: .5;
+}
+.containertwo:hover .overlay{
+    width: 300px; 
+
+}
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_slideleft*/
+.containerthree{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    position: relative;
+}
+.imagethree{
+    width: 300px !important;
+    height: 300px !important;
+    display: block;
+    width: auto;
+}
+.overlaythree{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: 10px;
+    position: absolute;
+    overflow: hidden;
+    width: 0;
+    height: 300px;
+    transition: .5s ease;
+    background-color: aquamarine;
+    opacity: .5;
+}
+.containerthree:hover .overlaythree{
+    width: 300px; 
+
+}
+.textthree {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_slideleft*/
+.containerfour{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    position: relative;
+}
+.imagefour{
+    width: 300px !important;
+    height: 300px !important;
+    display: block;
+    width: auto;
+}
+.overlayfour{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: 10px;
+    position: absolute;
+    overflow: hidden;
+    width: 0;
+    height: 300px;
+    transition: .5s ease;
+    background-color: aquamarine;
+    opacity: .5;
+}
+.containerfour:hover .overlayfour{
+    width: 300px; 
+
+}
+.textfour {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_slideleft*/
+.containerfive{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    position: relative;
+}
+.imagefive{
+    width: 300px !important;
+    height: 300px !important;
+    display: block;
+    width: auto;
+}
+.overlayfive{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: 10px;
+    position: absolute;
+    overflow: hidden;
+    width: 0;
+    height: 300px;
+    transition: .5s ease;
+    background-color: aquamarine;
+    opacity: .5;
+}
+.containerfive:hover .overlayfive{
+    width: 300px; 
+
+}
+.textfive {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+/*https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_image_overlay_slideleft*/
+.containersix{
+    width: 300px;
+    height: 300px;
+    padding: 10px;
+    position: relative;
+}
+.imagesix{
+    width: 300px !important;
+    height: 300px !important;
+    display: block;
+    width: auto;
+}
+.overlaysix{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    margin: 10px;
+    position: absolute;
+    overflow: hidden;
+    width: 0;
+    height: 300px;
+    transition: .5s ease;
+    background-color: aquamarine;
+    opacity: .5;
+}
+.containersix:hover .overlaysix{
+    width: 300px; 
+
+}
+.textsix {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+}
+.yazi{
+    text-align: center;
+    font-size: 60px;
+    font-weight: lighter;
+    margin-top: 30px;
+
+}
+.slogan {
+    text-align: center;
+    font-size: 60px;
+    font-weight: lighter;
+    margin-top: 300px;
+    margin-left: 284px;
+    color: white;
+}

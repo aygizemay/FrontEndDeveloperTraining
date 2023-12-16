@@ -1,0 +1,142 @@
+header{
+    margin-bottom: 135px;
+    flex-direction: column;
+}
+#header-items{
+    width: 100%;
+    margin: 10px;
+}
+.header-item {
+    width: 50%;
+    justify-content: space-around;
+}
+header img {
+    margin-top: 50px;
+}
+header button{
+    margin-top: 10px;
+    padding: 10px;
+}
+#nav-top {
+    width: 100%;
+}
+.swiper-content div {
+    margin: 50px 100px;
+}
+#cards .card{
+    padding: 0;
+    height: 300px;
+}
+#cards .card h5{
+    font-size: 16px;
+}
+#cards .card p{
+    font-size: 12px;
+}
+#offer{
+    flex-direction: column;
+    height: 1000px;
+    justify-content: start;
+}
+.offer-left{
+    width: 100%;
+    align-items: start;
+    margin-top: 0;
+}
+#offer img{
+    display: none;
+}
+.counter-content-top{
+    flex-direction: column;
+}
+.counter-content-top-info{
+    width: 100%;
+    align-items: center;
+}
+.counter-content-top img{
+    width: 270px;
+    height: 189px;
+}
+.counter-content-top-info h1{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.counter-content-top-info p{
+    font-size: 13px;
+}
+.our-cards{
+    flex-wrap: wrap;
+}
+.our-card{
+    width: 45%;
+    height: 590px;
+    margin-bottom: 20px;
+}
+.certified-items{flex-wrap: wrap;}
+.certified-item{
+    width: 45%;
+}
+#request{
+    height: 100vh;
+}
+.request-content{
+    align-items: start;
+}
+.request-content article{
+    margin-left: 30px;
+}
+.recent-footer{
+    flex-direction: column;
+    align-items: center;
+}
+#recent-blog p{
+    padding-bottom: 100px;
+}
+.comments-swiper{
+    width: 100%;
+}
+.mySwiper1 {
+    width: 100%; 
+}
+footer{
+    flex-direction: column;
+}
+.custom-table{
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding: 20px;
+}
+.table-blog img{
+    width: 60px;
+    height: 58px;
+}
+.table-blog h5{
+    width: 100px;
+    font-size: 12px;
+}
+footer table td p, .custom-table td ul li a{
+    font-size: 8px;
+}
+.custom-table td ul{
+    margin-left: 30px;
+}
+.footer-sub{
+    padding: 20px;
+}
+.footer-sub input{
+    font-size: 13px;
+    padding: 15px;
+}
+.footer-sub button{
+    font-size: 13px;
+    padding: 15px;
+}
+.footer-sub h3{
+    font-size: 20px;
+}
+.footer-sub article i{
+    background-color: rgba(65, 65, 65, 0.756);
+    padding: 5px;
+    border-radius: 50%;
+}

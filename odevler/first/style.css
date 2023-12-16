@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+* {
+    margin: 0; /* Kenar boşluğunu sıfırlar */
+    padding: 0; /* İç boşluğu sıfırlar */
+    font-family: 'Josefin Sans', sans-serif; /* Yazı tipini belirler */
+    text-decoration: none; /* Alt çizgiyi kaldırır */
+    list-style: none; /* Liste işaretlerini gizler */
+}
+
+/* <header> öğesine stil uygular */
+header {
+    background-image: url(background.webp ); /* Arka plan resmi ekler */
+    background-repeat: no-repeat; /* Resmi yinelenmeyen olarak ayarlar */
+    background-size: cover; /* Resmi tam ekran kaplayacak şekilde boyutlandırır */
+    width: auto; /* Genişliği otomatik ayarlar */
+    height: 710px; /* Yüksekliği 710 piksel olarak ayarlar */
+    display: flex; /* İçeriği flex konteyner olarak düzenler */
+    flex-direction: column; /* İçeriği dikey sıralar */
+    justify-content: space-between; /* İçerik arasına dikey boşluk bırakır */
+    padding: 20px; /* İç kenar boşluğunu ayarlar */
+    position: relative; /* Konumu ayarlar */
+}
+
+/* Logoyu içeren öğeye stil uygular */
+.logo {
+    display: flex; /* İçeriği flex konteyner olarak düzenler */
+    align-items: center; /* İçeriği dikeyde (üstten alta) ortalar */
+}
+
+/* Logonun resmini stil uygular */
+.logo img {
+    width: 100px; /* Logonun genişliğini ayarlar */
+    position: relative; /* Konumu ayarlar */
+}
+
+/* H1 başlığının stilini belirler */
+.title {
+    text-align: center; /* Metni ortalar */
+    position: absolute; /* Konumu ayarlar */
+    top: 100px; /* Logonun altına metin ekler */
+   right: 89%; /* Solda olacak şekilde ayarlar */
+    transform: translateX(-50%); /* Yatayda ortalar */
+    color: palevioletred    ;
+}
+
+/* Sosyal medya bağlantılarına stil uygular */
+.socialmedia {
+    position: absolute; /* Konumu ayarlar */
+    top: 20px; /* Üstten 20 piksel mesafe bırakır */
+    right: 20px; /* Sağdan 20 piksel mesafe bırakır */
+    display: flex; /* İçeriği flex konteyner olarak düzenler */
+    align-items: center; /* İçeriği dikeyde (üstten alta) ortalar */
+}
+
+/* Sosyal medya bağlantılarının stilini belirler */
+.socialmedia a {
+     top: 40px;
+    color: palevioletred    ; /* Metin rengini beyaz yapar */
+    text-decoration: none; /* Alt çizgiyi kaldırır */
+      margin-top: 20px;
+    margin:  10px; /* Sosyal medya bağlantıları arasında yatay boşluk bırakır */
+    transition: color .3s ease-in; /* Rengin değişimini yumuşatır */
+}
+
+/* Sosyal medya bağlantılarına fare üzerine geldiğinde stil uygular */
+.socialmedia a:hover {
+    color: red; /* Metin rengini fare üzerine gelindiğinde kırmızı yapar */
+}
+
+/* Menü öğelerine stil uygular */
+#menu {
+    display: flex; /* İçeriği flex konteyner olarak düzenler */
+    justify-content: center; /* Menü öğelerini yatayda ortalar */
+    margin-top: 20px; /* Üstten 20 piksel mesafe bırakır */
+}
+
+/* Menü öğelerinin stilini belirler */
+#menu li {
+    margin: 0 20px; /* Menü öğeleri arasında yatay boşluk bırakır */
+    margin-top: -60px; /* Menü metinlerini biraz yukarı taşır */
+    font-size: 24px;
+}
+
+/* Menü bağlantılarının stilini belirler */
+#menu li a {
+    color: palevioletred    ; /* Metin rengini beyaz yapar */
+}
+
+/* Styling for the menu item links on hover */
+#menu li a:hover {
+    color: red; /* Change the text color to red when you hover over the menu items */
+}
+.pink {
+    color: palevioletred; text-align: center;
+}
+.red{
+    color: red;
+    display: -webkit-box;
+    -webkit-line-clamp: 15; /* İstenen satır sayısı */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    margin-left: 20px
+}
+.countdown-box {
+    background-color: pink; /* Set the background color to pink */
+    color: red; /* Set the text color to red */
+    padding: 10px;
+    border-radius: 10px; /* Add rounded corners */
+    margin: 5px;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.countdown-title {
+    text-align: center;
+    color: red
+}
+/* Resimlerin üzerine tıklandığında yazıların görünürlüğünü ayarla */
+.image-container:hover .image-text {
+    opacity: 1;
+}
+
+/* Yazıların rengini kırmızı yap */
+.image-text {
+    color: red;
+}
+
+/* Resimlerin etrafına bir çerçeve ekle */
+.image-container {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    cursor: pointer;
+    justify-content: center; 
+}
+
+/* Yazıların başlangıçta görünmez olmasını sağla */
+.image-text {
+    opacity: 0;
+}
+
+.countdown-timer {
+    display: flex;
+    justify-content: center;
+}
+.image-container .image {
+    transition: opacity 0.5s;
+}
+
+.image-container .image:hover {
+    opacity: 0.5;
+}
+
+/* Yazıların rengini kırmızı yap ve başlangıçta görünmez yap */
+.image-text {
+    color: red;
+    opacity: 0;
+}
+
+.image-container:hover .image-text {
+    opacity: 1; }
+    .zoom-image {
+        cursor: pointer; /* Fareyi işaretçiye dönüştürür */
+        position: relative;
+        transition: transform 0.3s; /* Büyütme animasyonu ekler */
+    }
+    
+    .zoom-image:hover {
+        transform: scale(1.02); /* Resmi 1.01 kat büyütür (1px büyüme) */
+        z-index: 2; } 
+        /*Swiper Slide*/
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 600px;
+  /*  object-fit: cover;*/
+  }
+  /*Swiper Slide Bittimi*/
+  .swiper-slide article{
+      position: absolute;
+      top: 200px;
+      left: 50px;
+  }
+  .swiper-pagination-bullet{
+      background-color: palevioletred!important; 
+  }
+  .buton:hover{
+      background-color: transparent;
+  }
+  .linkulasma{text-align: center ; }
+  .gizem{text-align: center ; 
+
+  }

@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3&display=swap');
+
+:root{
+    --renk: #0dcaf0; 
+}
+
+*::selection { background-color: var(--renk);}
+
+body {
+    background-color: #d2d6de;
+    box-sizing: border-box;
+    font-family: 'Source Sans 3', sans-serif;
+}   
+
+#giris {
+    margin: 10% auto;
+    width: 360px;
+    text-align: center;
+    font-size: 20pt;
+}
+#giris h2 { color: #444; }
+
+#panel {
+    color: #666;
+    background-color: white;
+    height: 310px;
+}
+input[type=text], 
+input[type=password] {
+    padding: 10px 16px;
+}
+input[type=button] {
+    background-color: transparent;
+    border: none;
+}
+
+#panel h6{ padding-top: 20px; }
+
+.nav-item {
+    width: 100px;
+    border-top: medium solid white;
+    text-align: center;
+    margin-right: 50px;
+}
+#banner {
+    background-image: url(./assets/banner-01.jpg);
+    height: 800px;
+    background-size: cover;
+}
+.bannerIcerik {
+    text-align: center;
+    width: 50%;
+    color: white;
+}
+.bannerIcerik h2{ 
+    padding-top: 20% ;
+}
+.bannerBaslik {
+    font-size: 50pt;
+    font-weight: 700;
+}
+.btn { 
+    height: 50px;
+    border-radius: 25px;
+    width: 100px;
+    line-height: 35px;
+}
+.bannerDegerler {
+    width: 50%;
+    height: 150px;
+    color: var(--renk);
+    margin: 100px auto;
+    background-color: white;
+    padding-top: 50px;
+    border-radius: 50px;
+}

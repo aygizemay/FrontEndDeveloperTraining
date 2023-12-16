@@ -1,0 +1,62 @@
+.pulser {
+    width: 30px;
+    height: 30px;
+    background: rebeccapurple;
+    border-radius: 50%;
+    position: relative;
+  }
+  
+  .pulser::after {
+    animation: pulse 2s cubic-bezier(0.9, 0.7, 0.5, 0.9) infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      opacity: 0;
+      width: 100px;
+    }
+    50% {
+      transform: scale(1.4);
+      opacity: 0.4;
+    }
+    100% {
+      transform: scale(2, 1);
+      background-color: aqua;
+      width: 50px;
+    }
+  }
+  
+  .pulser::after {
+    content: '♥';
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: pink;
+    border-radius: 50%;
+    z-index: -1;
+  }
+
+
+img:hover { 
+    animation-name: images;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes images {
+    0% {
+        transform: scaleX(1);
+    }
+    50% {
+        transform: scaleX(2);
+        border-radius: 50%;
+        border: thin solid pink
+    }
+}
+img {
+    width: 100px;
+    height: 50px;
+    margin-left:50px;
+}

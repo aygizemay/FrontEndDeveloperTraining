@@ -1,0 +1,10 @@
+
+
+.gizem{
+    background-color:whitesmoke !important;
+    color: green!important;
+}
+.btn-dark:hover {
+    background-color: palevioletred;
+    color: black;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menü İşlemleri</title>
+    <link rel="stylesheet" href="./stil.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+<body>
+    <!-- menü Etiketi -->
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">X</label>
+        <!-- logo alanı ekledik -->
+        <label class="logo">
+            <i class="fa-brands fa-linkedin"></i> 
+            LinkedIn 
+        </label>
+        <ul>
+            <li><a href="#" class="active">Anasayfa</a></li>
+            <li><a href="#">Hakkımda</a></li>
+            <li><a href="#">İletişim</a></li>
+            <li><a href="#">Blog</a></li>
+        </ul>
+    </nav>
+    <section id="container">
+        <article>
+            <form method="post">
+                <h2>Topluluğunuzun Desteğiyle iş bulun</h2>
+                <label for="eposta">Eposta veya Telefon</label><br>
+                <input type="text" id="eposta"><br>
+                <label for="Parola">Parola</label><br>
+                <input type="password" id="parola">
+                <a href="javascript:void(0)"><i class="fa-solid fa-eye"></i></a>
+                <br>
+                <a href="#">Parolanızı mı unuttunuz?</a> <br>
+                <input type="submit" value="Oturum Aç">
+            </form>
+        </article>
+        <article>
+            <img src="./img.svg">
+        </article>
+    </section>
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook Login Page</title>
+    <link rel="stylesheet" href="stil.css">
+</head>
+<body>
+    <section class="container">
+        <header>
+            <div class="facebook">
+                <h2>Facebook</h2> 
+            </div>
+            <div class="login">
+                <p>
+                    <label for="eposta">Eposta veya Telefon</label>
+                    <label for="parola">Parola</label> 
+                </p>
+                <input type="text" placeholder="Eposta" id="eposta">
+                <input type="password" placeholder="Parola" id="parola">
+                <button id="girisYap">Giriş Yap</button>
+                <p>
+                    <a href="#">Hesabınızı mı unuttunuz?</a>
+                </p>
+            </div>
+        </header>
+       
+        <aside>
+            <p>
+                Facebook, tanıdıklarınla iletişim kurmanı ve hayatında olup bitenleri paylaşmanı sağlar.
+            </p>
+            <img src="./map.png" alt="">
+            
+        </aside>
+        <article>
+            
+            <form method="post">
+                <h2> <i>Facebook</i> Hesap Aç</h2>
+                <h4>Ücretsizdir ve her zaman ücretsiz kalacaktır.</h4>
+
+                <input type="text" placeholder="Adın" required name="adi" class="adisoyadi"> 
+                <input type="text" placeholder="Soyadın" required name="soyadi" class="adisoyadi">
+                <br>
+                <input type="email" name="eposta" id="eposta" class="girisnesnesi" placeholder="Cep Telefonu Numarası veya E-Posta" required>
+                <br>
+                <input type="password" name="parola" id="parola" class="girisnesnesi" placeholder="Yeni Parola" required>
+                <h4>Doğum Tarihi</h4>
+                <input type="date" name="tarih" id="tarih" class="adisoyadi" min="1960-01-01" max="2030-12-31">
+                <a href="#" target="_blank">Doğum tarihimi vermem neden gerekiyor?</a>
+                <br>
+                <input type="radio" name="r1"> Kadın
+                <input type="radio" name="r1"> Erkek
+                <p>
+                    Lorem ipsum dolor sit amet.
+                </p>
+                <input type="submit" value="Hesap Aç" id="hesapAc">
+                <p>
+                    Ünlü biri, müzik grubu veya şirket için 
+                    <a href="#">Sayfa Oluştur.</a>
+                </p>
+            </form>
+
+        </article>       
+    </section>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fox Üniversitesi</title>
+    <link rel="stylesheet" href="./stil.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+
+</head>
+<body>
+    <section class="container">
+        <header>
+            <div>
+                <h2>FOX.</h2>
+                <p>UNIVERSITY</p>
+            </div>
+            <div>
+                <h5><i class="fa-solid fa-paper-plane" style="color: #fd5f00;"></i> Email</h5>
+                
+                <a href="mailto:sercan.tirmik@ismek.ist">sercan.tirmik@ismek.ist</a>
+
+            </div>
+            <div>
+                <h5><i class="fa-solid fa-phone" style="color: green;"></i> Call</h5> 
+                <a href="https://wa.me/905303003030" target="_blank">05303003030</a>
+            </div>
+            <div>
+                <button class="dugme">Apply Now</button>
+            </div>
+        </header>
+        <nav>
+            <ul id="menu">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#staff">Staff</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <form> 
+                <input type="search" id="ara">
+            </form>
+        </nav>
+
+        <!-- Swiper -->
+        
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <article>
+                        <h2>University, College School Education</h2>
+                        <p>Slide 1</p>
+                        <button class="dugme">Contact Us</button>
+                    </article>   
+                    <img src="./assets/bg_1.jpg">
+                </div>
+                <div class="swiper-slide">
+                    <article>
+                        <p>Slide 2</p>
+                        <button class="dugme">Contact Us</button>
+                    </article>
+                    <img src="./assets/bg_2.jpg">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+    <p>yazıı</p>
+
+      <!-- Swiper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+        <!-- Initialize Swiper -->
+        <script>
+            var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            });
+        </script>
+    <script src="https://kit.fontawesome.com/bb9da9ae22.js" crossorigin="anonymous"></script>
+</body>
+</html>

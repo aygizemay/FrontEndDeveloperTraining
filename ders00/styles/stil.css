@@ -1,0 +1,50 @@
+h6{
+    color: yellow;
+}
+
+.kutu{
+    width: 200px;
+    height: 200px;
+    color: dodgerblue;
+    background-color: beige;
+}
+section{
+    background-color: gold;
+    width: 200px;
+    height: 200px;
+    box-shadow: 0 0 10px 5px red;
+    /* kenarları ovalleştirme border-radius */
+    border-radius: 20px;
+    text-align: center;/* yazıyı ortalar */
+    line-height: 200px; /* satır aralığı */
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* id ve class kavramları
+    Etiketin birden fazla class yapısı olabilir. class yapısı . (nokta) işaretiyle başlar. istediğiniz bir isim verebilirsiniz. class isimlendiriken sayısal ifadeyle başlamayınız.tr karakter mümkün olduğunca kullanmayın.
+        Örnek: .yaziRengi{ color:red; } .yaziGolgesi{ color:purple; }
+        Kullanımı: <h2 class="yaziRengi yaziGolgesi">Sosyal Medya</h2>
+
+    Etiketin en fazla bir adet id yapısı (kimliği) olabilir. # işaretiyle başlar. class yapısı gibi kullanılır.
+        Örnek: #sosyalMedya{ color:red; }
+        Konumlanma: <a href="#sosyalMedya">Sosya Medya Hesapları</a>
+        <h2 id="sosyalMedya">Sosyal Medya</h2>
+*/

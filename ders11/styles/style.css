@@ -1,0 +1,28 @@
+
+.accordion-button {
+ background-color: pink !important;
+
+
+}
+.collapsed{
+    background-color: pink !important;
+}
+
+.accordion-body {
+    font-family: "consolas";
+    text-shadow: -5px 5px 4px pink;
+    columns: 2;
+}
+/* modal açıldığında arkaplan rengi*/
+body.modal-open{
+    background-color: whitesmoke;
+}
+.btn-danger{
+    background-color: pink !important;
+    border: pink;
+}
+/* arka planı için
+.accordion-body{
+    background-color: pink !important;
+}
+*/

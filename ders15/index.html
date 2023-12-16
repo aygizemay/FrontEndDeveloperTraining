@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stil.css">
+    <style>
+        body { background: #eee; }
+    </style>
+</head>
+<body>
+    <section id="cont" class="container">
+        <nav>
+            <ul id="menu">
+                <li class="eleman active"><a href="javascript:void(0)">items</a></li>
+                <li class="eleman"><a href="javascript:void(0)">items</a></li>
+                <li class="eleman"><a href="javascript:void(0)">items</a></li>
+                <li class="eleman"><a href="javascript:void(0)">items</a></li>
+                <li class="eleman"><a href="javascript:void(0)">items</a></li>
+            </ul>
+        </nav>
+
+        <form>
+            <h2>Oturum İşlemi</h2>
+            <input type="text" id="username" placeholder="Kullanıcı Adı"> <br>
+            <input type="password" id="password" placeholder="Parola"> 
+            <input type="button"  id="goster" onclick="goster2()">
+            <br>
+            <input type="button" value="Kontrol" onclick="uyeGiris()">
+            <input type="color" name="" id="bgcolor" onchange="renkDegis()">
+        </form>
+
+        <aside>
+            <h2>Hesap Makinesi:</h2>
+            <input type="number" name="" id="s1">
+            <input type="number" name="" id="s2">
+            <br> <br>
+            <input type="button" value="+" onclick="topla()">
+            <input type="button" value="-" onclick="cikar()">
+            <input type="button" value="*" onclick="carp()">
+            <input type="button" value="/" onclick="bol()"> <br>
+            <h2 id="sonuc">Sonuç</h2>
+        </aside>
+        <hr>
+        <article>
+            <h2>Ürün Sepete Ekleme-Çıkarma İşlemi</h2>
+            <input type="number" id="sepet"> <br>
+            <input type="button" value="Ekle" onclick="addToCard()">
+            <input type="button" value="Çıkar" onclick="removeToCard()">
+
+
+        </article>
+    </section>
+
+    <script src="./script.js"></script>
+</body>
+</html>

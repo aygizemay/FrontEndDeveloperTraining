@@ -1,0 +1,157 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+
+
+body {
+    /* background-image: url(./assets/bg.jpg); */
+    /* background-size: cover; */
+    background-image: linear-gradient(97deg, pink, #df6e6e) ;
+    background-attachment: fixed;
+}
+
+.container{
+    /* margin: dış kenar boşluğu negatif değer alabilir
+       padding: iç kenar boşluğu */
+    margin: 10% auto; /* yukarı-aşağı boşluk yok sağdansoldan ortalanmış */
+    padding: 5px 50px;
+    height: 300px;
+    border: 10px double white;
+    text-shadow: 2px 2px 3px black, -2px -2px 0.5px red;
+    text-decoration: underline wavy red;
+    text-align: center; /* yazı hizalama */
+    text-transform: capitalize; 
+    /*  capitalize: paragraftaki her kelimenin ilk karakteri büyük yazar 
+        uppercase: büyük harf yazar, lowecase: küçük harf yazar. */
+    font-size: 16pt;  
+    font-style: italic;
+    font-variant: small-caps;  /*cümlenin tüm harfleri büyük
+    yalnız yeni cümlenin ilk karakteri diğerlerine göre daha büyük yazar*/
+    font-family: 'Fuggles', cursive;
+    font-weight: bold;
+    
+}
+
+.mail{
+    font-family: 'Inconsolata', monospace;
+    font-size: 16pt;
+    opacity: .5;
+    /* saydamlık, 0-1 arası ondalık değeri alır */
+}
+
+/* mail sınıfı içindeki a etiketlerini etkile */
+.mail a{
+    color: white;
+    text-decoration: none;
+}
+
+.kapsayici{
+    /* max-width: fit-content;
+    maksimum yazı genişliği kadar kutu genişliği olur */
+    border: thin solid black;
+    width: 85%;
+    margin: 0 auto;
+    padding: 10px;
+    height: max-content;  /* yükseklik sayfanın içeriği kadar olsun */
+}
+header {
+    border: medium inset white;
+    background-color: gray;
+}
+#menu {
+    background-color: gainsboro;
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+#menu a{
+    /* display: seçilen etiketin çevresine kutu ekler
+       inline-block: yatayda sıralar */
+    display: inline-block;
+    margin: 10px 20px;
+    background-color: #df6e6e;
+    padding: 10px;
+    border-radius: 10px; /* kutu kenarını ovalleştirir */
+    text-decoration: none;
+    color: white;
+    /* renk değiştirme efekti */
+    transition: color .4s ease-in;
+}
+
+/* etiket özelliklerini türetme parent-child */
+#menu a:hover{
+    color: #000;
+}
+
+/* ----- SLIDER MENU OLUŞTURMA ----- */
+
+
+
+.icerik, aside {
+    width: 100%;
+    margin: 25px 0;
+    background-color: #fff;
+    height: 300px;
+    display: inline-flex;
+}  
+
+.sol, .sag {
+    width: 49%;
+    background-color: antiquewhite;
+    margin: 10px;
+    
+}
+
+/* SOL SLIDER BOLUMU  */
+
+.swiper {
+    width: 85%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .swiper-slide img {
+    display: block; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  .swiper-pagination-bullet-active {
+    color: #fff;
+    background: #007aff;
+  }
+
+aside {
+    font-style: italic;
+}
+
+article h3 { text-align: center; }
+article {
+    background-color: gold;
+    width: 50%;
+    margin: 10px;
+    
+}
+li { font-size: 14pt; margin-bottom: 10px; }
+li i { letter-spacing: 20px; }  /* list item içindeki fontawesome etkilensin harf boşluğu */

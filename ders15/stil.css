@@ -1,0 +1,39 @@
+.container {
+    background: #d1f4f8;
+    margin: 0 auto;
+    width: 90%;
+    height: 1000px;
+}
+
+#menu {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 3px;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+.eleman {
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    line-height: 50px;
+    height: 50px;
+    width: 200px;
+    background-color: dodgerblue;
+}
+.eleman a {
+    text-decoration: none;
+    color: #000;
+    width: 100%;
+    font-size: 3vmin;
+}
+.active, .eleman:hover {
+    border-bottom: medium solid #000;
+}
+
+html {
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Fuggles&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Noto+Sans+Gurmukhi&display=swap');
+
+body{
+     /* background-color: palevioletred;*/
+     background-image: linear-gradient(rgb(138, 61, 80), rgb(44, 41, 42));
+     background-attachment: fixed;
+}
+.container{
+    /*margin: dış kenar boşluğu eksi
+    padding: iç kenar boşluğu pozitif
+    margin saat yönü ilk sağ sonra aşağı sonra sola dğru
+   margin 0 auto  auto otamtik oluyor */
+   /*    margin: 0 auto; otmatik ayarlıyormuuş*/
+   margin: 10% auto;  /*yukarıda aşağı boşluk yok sağsan sola doğru
+   double çift dashed çizgi çizgi oluyor outsite dışarda inside içerde oluyor*/
+   padding: 5px 50px;
+   height: 300px;
+    border: 10px dashed blue;
+    text-shadow: 2px 2px 3px whitesmoke, -2px -2px 0.5px  white;   /*gölgelendirme*/ /*kaydırma*/
+
+    text-decoration: underline dotted;
+    text-align: center;     /*  ortalama */
+    text-transform: capitalize; /* paragraftaki her kelimenin ilk karakterii büyük yazar
+    uppercase: büyük harf yazar , lowercase: küçük harf yazar*/
+    /* yazı tipinin kısmı */
+    font-size: 20pt;
+    font-style: italic;
+    font-variant: small-caps; /* cümlenin tüm harfleri büyük yalnız yeni cümlenin  ilk karakteri diğerlerien göre daha büyük yazar.
+      ilk karakter büyük diğerleri de büyük (noktalama işaretlerinden sonra) 'alıntılarda kullanma' ama boyutları küçük */
+     font-family: 'Fuggles', cursive;
+font-weight: bold;
+}
+.mail{
+    background-color: aqua;
+    font-family: 'Dancing Script', cursive;
+    font-size: 16pt;
+    padding: 10px;
+    width: 55px;
+}
+
+/*mail sınıfın içindeki a etkiketlerini etkile*/
+.mail a {
+    color: crimson;
+    text-decoration: none;
+    
+}
+.alt{
+    background-color: rgb(255, 255, 0);
+font-family: 'Noto Sans Gurmukhi', sans-serif;
+font-size:  120pt;
+padding:  25%;
+width: 25%;
+margin: auto;
+  
+}
+.kapsayici{
+    /* max-width: fit-content; mak. kutu genişliği kadar olur*/
+    border: thin solid pink;
+    width: 85%;
+    height: 90vh;
+    margin: 0 auto;
+    padding: 10px;
+   
+    text-align: center;
+}
+header{
+    border: medium inset black;
+    background-color: pink;
+}
+#menu{
+    background-color: palevioletred;
+    width: 90%;
+    margin: 10px;
+
+    text-align: center;
+    text-transform: uppercase; /*hepsi büyük yazı*/
+}
+#menu a{
+    /*display;seçilen etikettin çevresine kutu ekler
+    inline-block özelliği yatayda sıralar */
+    display: inline-block;
+    margin: 10px;
+    background-color:white;
+    padding: 10px;
+    border-radius: 10px; /*kutu kenrını ovelleştirme*/
+text-decoration: none;
+color: rgb(255, 0, 234);
+transition: all .2s ease-in;
+}
+/*etiketle */
+#menu a:hover{
+    color: rgb(0, 0, 0);
+   
+}
+/*renk geçişleri*/
+
+
+/* ----- SLIDER MENU OLUŞTURMA ----- */
+
+
+
+.icerik {
+    width: 50%;
+    margin: 25px 0;
+    background-color: #fff;
+    height: 30px;
+    display: inline-flex;
+}  
+
+.sol, .sag {
+    width: 49%;
+    background-color: antiquewhite;
+    margin: 10px;
+    
+}
+
+/* SOL SLIDER BOLUMU  */
+
+.swiper {
+    width: 85%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .swiper-slide img {
+    display: block; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  .swiper-pagination-bullet-active {
+    color: #fff;
+    background: #007aff;
+  }
+  
+
+.theme, aside {
+    width: 100%;
+    margin: 25px 0;
+    background-color: #fff;
+    height: 300px;
+    display: inline-flex;
+}  
+
+.left, .right {
+    width: 49%;
+    background-color: antiquewhite;
+    margin: 10px;
+    
+}
+
+/* SOL SLIDER BOLUMU  */
+
+.swiper {
+    width: 85%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  }
+
+  .swiper-slide img {
+    display: block; 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+  }
+
+  .swiper-pagination-bullet-active {
+    color: #fff;
+    background: #007aff;
+  }
+
+aside {
+    font-style: italic;
+}
+
+article h3 { text-align: center; }
+article {
+    background-color: gold;
+    width: 50%;
+    margin: 10px;
+    
+}

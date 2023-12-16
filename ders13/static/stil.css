@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-color{
+    background-color: #ddd;
+}
+.nav-color{
+    background-color: #878888  !important;
+}
+.card{
+    border-radius: 0 !important;
+}
+.card-color{
+    background-color: #66acb9 !important;
+}
+.carousel-indicators [data-bs-target]{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 100%;
+}
+.duyuru-baslik{
+    width: 100%;
+    border-bottom: 1px solid rgb(176, 176, 176) !important;
+    margin-top: 20px;
+    font-weight: lighter;
+}
+.duyuru-span{
+    border-bottom: 1px solid rgba(176, 176, 176, 0.482) !important;
+}
+.duyuru-tarih{
+    border-left: 2px solid black;
+    padding:0 5px;
+}
+.card img{
+    border-radius: 0 !important;
+}
+
+.opacity-black{
+    background-color: rgba(0, 0, 0, 0.668);
+}
+.footer-color{
+    background-color: #444444;
+}
+.footer-color-1{
+    background-color: #181818;
+}

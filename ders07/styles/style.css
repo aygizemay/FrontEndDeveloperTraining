@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+   
+ 
+}
+.container{
+   
+
+    margin: 0 auto;
+    width: 90%;
+}
+
+header{
+    /* kapsayıcı etkiketine flex özelliği tanımladık*/
+    display: flex;
+    justify-content: space-between; 
+    border: thin solid black;
+    flex-wrap: wrap-reverse;
+    
+
+/* gap:20px; divler arası boşluk değeridir.*/    
+}
+header div{
+    width: 20%;
+    margin: 10px;
+ 
+    line-height: 5px;
+    height: 80px;
+    
+}
+header div:last-child{
+    text-align: center;
+    line-height: 80px;
+}
+.button{
+ background-color: #fd5f00;
+ color: #0d1128;
+ border: none;
+
+}
+
+/* ------- NAVBAR-----------*/
+
+nav, #menu {
+    display: flex;
+    justify-content:  space-between;
+    background: #0d1128;
+}
+
+
+#menu li{
+    width: 70px; text-align: center;
+}
+#menu li a{
+    background: #0d1128;
+    display: block;
+}
+#search{
+   padding: 6px 12px 6px 16px;
+
+}
+.active{
+    color: #fd5f00 !important;
+}
+/*Swiper Slide*/
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 600px;
+  /*  object-fit: cover;*/
+  }
+  /*Swiper Slide Bittimi*/
+  .swiper-slide article{
+      position: absolute;
+      top: 200px;
+      left: 50px;
+  }
+  .swiper-pagination-bullet{
+      background-color: #fd5f00 !important; 
+  }
+  .buton:hover{
+      background-color: transparent;
+  }

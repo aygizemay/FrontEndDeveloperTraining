@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fuggles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&display=swap');
+
+
+body{
+    /* background-image: url(./assets/bg.jpg); */
+    /* background-size: cover; */
+    background-image: linear-gradient(97deg, pink, #df6e6e) ;
+    background-attachment: fixed;
+    
+}
+
+.container{
+    /* margin: dış kenar boşluğu negatif değer alabilir
+       padding: iç kenar boşluğu */
+    margin: 10% auto; /* yukarı-aşağı boşluk yok sağdansoldan ortalanmış */
+    padding: 5px 50px;
+    height: 300px;
+    border: 10px double white;
+    text-shadow: 2px 2px 3px black, -2px -2px 0.5px red;
+    text-decoration: underline wavy red;
+    text-align: center; /* yazı hizalama */
+    text-transform: capitalize; 
+    /*  capitalize: paragraftaki her kelimenin ilk karakteri büyük yazar 
+        uppercase: büyük harf yazar, lowecase: küçük harf yazar. */
+    font-size: 16pt;  
+    font-style: italic;
+    font-variant: small-caps;  /*cümlenin tüm harfleri büyük
+    yalnız yeni cümlenin ilk karakteri diğerlerine göre daha büyük yazar*/
+    font-family: 'Fuggles', cursive;
+    font-weight: bold;
+    
+}
+
+.mail{
+    font-family: 'Inconsolata', monospace;
+    font-size: 16pt;
+    opacity: .5;
+    /* saydamlık, 0-1 arası ondalık değeri alır */
+}
+
+/* mail sınıfı içindeki a etiketlerini etkile */
+.mail a{
+    color: white;
+    text-decoration: none;
+}
+
+.kapsayici{
+    /* max-width: fit-content;
+    maksimum yazı genişliği kadar kutu genişliği olur */
+    border: thin solid black;
+    width: 85%;
+    margin: 0 auto;
+    padding: 10px;
+    height: 95vh;
+}
+header {
+    border: medium inset white;
+    background-color: gray;
+}
+#menu {
+    background-color: gainsboro;
+    width: 90%;
+    margin: 10px auto;
+    text-align: center;
+    text-transform: uppercase;
+}
+#menu a{
+    /* display: seçilen etiketin çevresine kutu ekler
+       inline-block: yatayda sıralar */
+    display: inline-block;
+    margin: 10px 20px;
+    background-color: #df6e6e;
+    padding: 10px;
+    border-radius: 10px; /* kutu kenarını ovalleştirir */
+    text-decoration: none;
+    color: white;
+    /* renk değiştirme efekti */
+    transition: color .4s ease-in;
+}
+
+/* etiket özelliklerini türetme parent-child */
+#menu a:hover{
+    color: #000;
+}
