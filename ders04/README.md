@@ -13,5 +13,3 @@ https://github.com/aygizemay/FrontEndDeveloperTraining/assets/132147429/3ac3efe5
 
 
 
-https://github.com/aygizemay/FrontEndDeveloperTraining/assets/132147429/a1ae1cff-651f-4527-9585-698bd25f13c1
-
