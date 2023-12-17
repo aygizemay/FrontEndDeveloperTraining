@@ -1,2 +1,3 @@
 Bootstrap'e Giriş Yapıldı
-![image](https://github.com/aygizemay/FrontEndDeveloperTraining/assets/132147429/8661726d-d56a-4fcf-a3a3-0311d9c92247)
+
+![ders10](https://github.com/aygizemay/FrontEndDeveloperTraining/assets/132147429/868f92e5-ffd4-4693-91d0-da948d7a5ead)
