@@ -2,14 +2,12 @@ Ders süresi boyunca form etiketlerini öğrendik. Ardından, bize bir form örn
 
 ## İlk Form
 
-https://github.com/aygizemay/FrontEndDeveloperTraining/assets/132147429/592bf542-1904-4e54-81f6-7dfe6103fcbd
+https://github.com/aygizemay/FrontEndDeveloperTraining/assets/132147429/a2801c9b-23ce-4762-bbe4-44497180406b
 
 
 
 ## Ödev olarak istenilen;
 
-
-https://github.com/aygizemay/FrontEndDeveloperTraining/assets/132147429/3ac3efe5-1b8b-4142-b2e5-42e0a0b4dad7
-
+https://github.com/aygizemay/FrontEndDeveloperTraining/assets/132147429/870db24f-2d01-4ef2-a1de-653b963c53af
 
 
