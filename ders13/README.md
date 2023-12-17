@@ -1,5 +1,5 @@
-Bootstrap kullanarak mevcut basit web sitesine benzer bir site oluşturmaya çalıştık.
+
+https://github.com/aygizemay/FrontEndDeveloperTraining/assets/132147429/16760988-e79a-4cb2-b435-e4f2b3fa5f49
 
 
-https://github.com/aygizemay/FrontEndDeveloperTraining/assets/132147429/91221773-2fe5-4704-a872-1498aab6730b
 
