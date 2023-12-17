@@ -1,4 +1,4 @@
-JavaScripti öğrendiğim zaman zamanalyıcı güncelenecektir.
 
-https://github.com/aygizemay/FrontEndDeveloperTraining/assets/132147429/0d4e5b0a-1c6f-4748-878e-f3f9ccb818bd
+
+https://github.com/aygizemay/FrontEndDeveloperTraining/assets/132147429/433df0d1-2fb5-4541-b576-448c31f3ffa1
 
