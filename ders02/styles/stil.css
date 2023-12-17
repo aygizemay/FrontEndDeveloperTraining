@@ -98,7 +98,30 @@ transition: all .2s ease-in;
 }
 /*renk geçişleri*/
 
+article{
 
+  color: white;
+  position: relative;
+  float: left;
+  margin-right: 5px;
+}
+article h3{
+  text-align: center;
+}
+article ul{
+  width: 90%;
+  margin-top: 50px;
+}
+article ul li{
+  list-style: none;
+  margin: 15px;
+  text-align: center;
+}
+article ul li a{
+  text-decoration: none;
+  color: white;
+  font-size: 16pt;
+}
 /* ----- SLIDER MENU OLUŞTURMA ----- */
 
 
