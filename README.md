@@ -31,7 +31,7 @@
 
 [Ders 12](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders12)  : Bootstrap kullanarak mevcut basit web sitesine benzer bir site oluşturmaya çalıştık
 
-[Ders 13](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders13)  : İU AUZEF sitesini bootstrap yapıldı.
+[Ders 13](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders13)  : İU AUZEF sitesini bootstrap ile yapıldı.
 
 [Ders 13](https://github.com/aygizemay/FrontEndDeveloperTraining/tree/main/ders13)  :  1 Haftalık ARA VERİLDİ. Bu süreçte Medium sitesinin clonu yapıldı.
 
